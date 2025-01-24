@@ -1,0 +1,100 @@
+* {
+    font-family: Inter;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+p {
+    font-size: 14px;
+    margin: 4px;
+}
+
+#main-block {
+    background-color: hsl(0, 0%, 12%);
+    width: 25%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px hsl(0, 0%, 8%);
+}
+
+@media screen and (max-width: 768px){
+    #main-block {
+        background-color: hsl(0, 0%, 12%);
+        width: 95%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 2px hsl(0, 0%, 8%);
+    }
+}
+
+.content-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#avatar {
+    width: 20%;
+    height: 20%;
+    clip-path: circle(50%);
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+#user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    font-size: 130%;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+#location {
+    font-size: 80%;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%)
+}
+
+#description {
+    font-size: 80%;
+    font-weight: 400;
+    color: hsl(0, 0%, 85%);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+    width: 75%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+#instagram-btn {
+    margin-bottom: 45px;
+}
