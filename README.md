@@ -40,3 +40,5 @@ Live page: https://borawsu.github.io/social-links-profile/
 Frontend mentor twitter: @frontendmentor
 
 My twitter: @Marcin64111843
+
+Note: this took me 2 days to make
